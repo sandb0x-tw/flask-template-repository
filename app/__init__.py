@@ -1,5 +1,5 @@
 from flask import Flask
-from routes import user_bp
+from .controllers import user_bp
 
 def create_app(config_name):
     app = Flask(__name__)
